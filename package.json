@@ -1,11 +1,17 @@
 {
   "dependencies": {
     "docs-cli": "^1.0.25",
-    "global": "^4.3.2"
+    "global": "^4.3.2",
+    "snyk": "^1.174.0"
   },
   "prettier": {
     "semi": false,
     "trailingComma": "all",
     "singleQuote": true
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
