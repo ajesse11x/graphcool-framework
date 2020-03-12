@@ -108,7 +108,7 @@
     "opn": "^5.1.0",
     "raven": "^2.3.0",
     "replaceall": "^0.1.6",
-    "rwlockfile": "^1.4.8",
+    "rwlockfile": "^1.4.11",
     "scuid": "^1.0.2",
     "source-map-support": "^0.4.18",
     "string": "3.x",
